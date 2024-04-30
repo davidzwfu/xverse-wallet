@@ -1,0 +1,68 @@
+.lookup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 16px 0 17px;
+}
+.lookup__label {
+  line-height: 17px;
+  margin-top: 10px;
+}
+.lookup__input {
+  font-weight: 400;
+  background: #24252C;
+  border: none;
+  padding: 7px 8px;
+  outline: none;
+}
+.lookup__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: unset;
+  padding: 14px;
+  background: #465AE9;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 21px;
+}
+.results__title {
+  margin-bottom: 14px;
+}
+
+.results-item {
+  display: flex;
+  align-items: center;
+  height: 49px;
+}
+.results-item__text {
+  flex: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 21px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: -16px;
+  margin-bottom: 16px;
+}
+.footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #465AE9;
+  cursor: pointer;
+}
